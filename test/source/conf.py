@@ -17,9 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Test'
+project = 'sphinx-docker'
 copyright = '2019, MusicScience37'
 author = 'MusicScience37'
+
+# The full version, including alpha/beta/rc tags
+release = '0.0'
 
 
 # -- General configuration ---------------------------------------------------
