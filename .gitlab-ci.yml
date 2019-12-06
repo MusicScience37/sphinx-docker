@@ -1,3 +1,9 @@
+lint_dockerfile:
+  stage: lint
+  image: hadolint/hadolint:latest-debian
+  script:
+    - hadolint sphinx/Dockerfile
+
 docker-build-master:
   image: tmaier/docker-compose:latest
   stage: build
