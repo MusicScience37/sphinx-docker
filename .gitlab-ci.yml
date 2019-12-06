@@ -1,3 +1,7 @@
+stages:
+  - lint
+  - build
+
 lint_dockerfile:
   stage: lint
   image: hadolint/hadolint:latest-debian
