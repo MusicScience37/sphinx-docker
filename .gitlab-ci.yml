@@ -1,6 +1,7 @@
 stages:
   - lint
   - build
+  - deploy
 
 lint_dockerfile:
   stage: lint
@@ -45,3 +46,8 @@ docker-build:
       - test/build
   except:
     - master
+
+pages:
+  stage: deploy
+  script:
+    - mv test/build/html public
