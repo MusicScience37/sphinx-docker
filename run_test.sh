@@ -1,4 +1,5 @@
 #!/bin/bash -eu
 
-docker-compose -f docker-compose.test.yml up --build
-docker-compose -f docker-compose.test.yml down
+compose_file=$(dirname $0)/sphinx/docker-compose.test.yml
+docker-compose -f $compose_file up --build
+docker-compose -f $compose_file down
