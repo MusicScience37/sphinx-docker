@@ -12,6 +12,8 @@
 
 Docker container image to use [Sphinx](http://www.sphinx-doc.org/).
 
+Current version of sphinx used in this project is 2.2.2.
+
 ## Images
 
 Images built in this project are available at following sites:
