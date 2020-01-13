@@ -8,4 +8,4 @@ RUN apt-get update && \
     apt-get autoclean && \
     rm -r /var/lib/apt/lists/*
 
-RUN pip3 install sphinx==2.2.2
+RUN pip3 install sphinx==2.3.0
